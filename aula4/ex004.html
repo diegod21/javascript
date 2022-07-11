@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com dom </title>
+    <style>
+        body{ background-color: rgb(143, 0, 0);
+            color:rgb(255, 255, 255);
+            font: normal 20pt arie
+
+
+        }
+    </style>
+</head>
+<body> <h1>iniciando com Dom , welcome </h1>
+<p>aqui vai o resultado</p>
+<p>aprendendo a usar <strong>Dom </strong></p>
+<div id="d">clique em mim</div>
+
+
+
+    <script>
+      var p1 = window.document.getElementsByTagName('p')[0]
+      window.document.write(
+          'esta escrito : ' + p1.innerText 
+      )
+     var s = window.document.getElementById('d')
+     window.document.write(' , o id é  ' + d.innerText) 
+
+    </script>
+</body>
+</html>
